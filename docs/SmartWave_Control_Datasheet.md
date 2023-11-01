@@ -144,6 +144,7 @@ The I2C driver operates in controller mode. It can receive and transmit data in 
 General information about the I2C interface can bo found [here](https://www.nxp.com/docs/en/user-guide/UM10204.pdf).
 
 The I2C driver supports the following configuration parameters:
+
 | *Parameter* | *Description*   |
 | --------- | -------|
 | Frequency | Defines the I2C clock frequency |
