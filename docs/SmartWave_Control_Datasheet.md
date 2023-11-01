@@ -98,7 +98,7 @@ The voltage level of the VDDIO can be configured between 1.8 - 5.0V (VBUS). PMOD
 
 The following drawing shows the pin out diagram for the PMOD™ conectors.
 
-<img src=SmartWave_Blockdiagram_Pin.svg width=50% height=50% alt="SmartWave-Control Pinout Diagram" title="SmartWave-Control Pinout Diagram">
+![SmartWave-Control Pinout Diagram](SmartWave_Blockdiagram_Pin.svg?raw=true "SmartWave-Control Pinout Diagram"){:width="50%"}{:height="50%"}
 
 
 #### USB Connector
