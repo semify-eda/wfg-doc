@@ -3,7 +3,7 @@
 ## Overview
 
 SmartWave, by semify GmbH, is a cutting-edge hardware tool designed for professional testing. 
-It facilitates communication with a multitude of devices, including ADC, DAC, and Sensors, through industry-standard interfaces like SPI, I2C, and UART.
+It facilitates communication with a multitude of devices, including ADC, DAC, and Sensors, through industry-standard interfaces like SPI and I2C.
 The device boasts a robust design, combined with flexible configuration options. Notable features include a range of standard interfaces, configurable IO voltage between 1.8 or 5.0 Volts, and a display that provides pin assignments and status information. 
 
 Additionally, SmartWave is Pmod™ compatible, allowing direct connection with DIGILENT Pmod™ based extension boards. Its advanced FPGA platform ensures unparalleled performance and adaptability, making it an essential companion to any oscilloscope.
@@ -70,14 +70,14 @@ The SmartWave-Control is supplied via the USB connector.
 
 ### Connector
 
-#### PMOD™
-The SmartWave - Control support two fully populated Digilent PMOD™ header with 12 pins each called PMOD-A and PMOD-B. 
+#### Pmod™
+The SmartWave - Control support two fully populated Digilent Pmod™ header with 12 pins each called Pmod-A and PMOD-B. 
 
-The distance between the two PMOD™ connectors follows the standard 12-pin female host port placement descibed in the [Digilent Pmod™ Interface Specification](https://digilent.com/reference/_media/reference/pmod/pmod-interface-specification-1_3_1.pdf).
+The distance between the two Pmod™ connectors follows the standard 12-pin female host port placement descibed in the [Digilent Pmod™ Interface Specification](https://digilent.com/reference/_media/reference/pmod/pmod-interface-specification-1_3_1.pdf).
 
-General information about the digitlent PMOD™ header can bo found [here](https://digilent.com/reference/pmod/start).
+General information about the digitlent Pmod™ header can bo found [here](https://digilent.com/reference/pmod/start).
 
-The voltage level of the VDDIO can be configured between 1.8 - 5.0V (VBUS). PMOD-A and PMOD-B share the same VDDIO supply level.
+The voltage level of the VDDIO can be configured between 1.8 - 5.0V (VBUS). Pmod-A and Pmod-B share the same VDDIO supply level.
 
 | *Pin* | *Function*   |
 | --------- | -------|
@@ -96,7 +96,7 @@ The voltage level of the VDDIO can be configured between 1.8 - 5.0V (VBUS). PMOD
 
 ##### Pinout Diagram
 
-The following drawing shows the pin out diagram for the PMOD™ conectors.
+The following drawing shows the pin out diagram for the Pmod™ conectors.
 
 ![SmartWave-Control Pinout Diagram](SmartWave_Blockdiagram_Pin.svg?raw=true "SmartWave-Control Pinout Diagram"){:width="50%"}{:height="50%"}
 
@@ -112,11 +112,11 @@ The following interfaces are supported
 
 A GPIO allows to drive an output to either es opend drain or push-pull. It is also possible to read back the value.
 
-Each PMOD™ interface pin can be used as GPIO.
+Each Pmod™ interface pin can be used as GPIO.
 
 #### SPI
 
-The SPI driver operates in master mode. It can receive and transmit data in full duplex mode. Each PMOD™ pin can be assigned to any SPI driver pin.
+The SPI driver operates in master mode. It can receive and transmit data in full duplex mode. Each Pmod™ pin can be assigned to any SPI driver pin.
 
 General information about the SPI interface can bo found [here](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface).
 
@@ -139,7 +139,7 @@ SPI driver clock specification:
 
 #### I2C
 
-The I2C driver operates in controller mode. It can receive and transmit data in half duplex mode. Each PMOD™ pin can be assigned to any SPI driver pin.
+The I2C driver operates in controller mode. It can receive and transmit data in half duplex mode. Each Pmod™ pin can be assigned to any SPI driver pin.
 
 General information about the I2C interface can bo found [here](https://www.nxp.com/docs/en/user-guide/UM10204.pdf).
 
