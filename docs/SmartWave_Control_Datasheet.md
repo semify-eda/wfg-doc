@@ -75,7 +75,7 @@ The SmartWave - Control support two fully populated Digilent Pmod™ header with
 
 The distance between the two Pmod™ connectors follows the standard 12-pin female host port placement descibed in the [Digilent Pmod™ Interface Specification](https://digilent.com/reference/_media/reference/pmod/pmod-interface-specification-1_3_1.pdf).
 
-General information about the digitlent Pmod™ header can bo found [here](https://digilent.com/reference/pmod/start).
+General information about the digitlent Pmod™ header can be found [here](https://digilent.com/reference/pmod/start).
 
 The voltage level of the VDDIO can be configured between 1.8 - 5.0V (VBUS). Pmod-A and Pmod-B share the same VDDIO supply level.
 
@@ -118,7 +118,7 @@ Each Pmod™ interface pin can be used as GPIO.
 
 The SPI driver operates in master mode. It can receive and transmit data in full duplex mode. Each Pmod™ pin can be assigned to any SPI driver pin.
 
-General information about the SPI interface can bo found [here](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface).
+General information about the SPI interface can be found [here](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface).
 
 The SPI driver supports the following configuration parameters:
 
@@ -141,7 +141,7 @@ SPI driver clock specification:
 
 The I2C driver operates in controller mode. It can receive and transmit data in half duplex mode. Each Pmod™ pin can be assigned to any SPI driver pin.
 
-General information about the I2C interface can bo found [here](https://www.nxp.com/docs/en/user-guide/UM10204.pdf).
+General information about the I2C interface can be found [here](https://www.nxp.com/docs/en/user-guide/UM10204.pdf).
 
 The I2C driver supports the following configuration parameters:
 
