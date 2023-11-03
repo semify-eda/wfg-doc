@@ -135,7 +135,7 @@ SPI driver clock specification:
 
 | *Parameter* | *Min Value*   | *Max Value*   | *Unit*  |
 | --------- | -------:| ----:  | ----|
-| SPI clock| 33 | 0.0005 | MHz  |
+| SPI clock| 0.0005 | 33 | MHz  |
 
 #### I2C
 
@@ -153,7 +153,7 @@ The I2C driver supports the following configuration parameters:
 
 | *Parameter* | *Min Value*   | *Max Value*   | *Unit*  |
 | --------- | -------:| ----:  | ----|
-| I2C clock| 1.83 | 0.0005 | MHz  |
+| I2C clock| 0.0005 | 1.83 | MHz  |
 
 
 ### Display
