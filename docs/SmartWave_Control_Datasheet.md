@@ -47,7 +47,7 @@ The maximal frequency depends on the selected VDDIO voltage.
 
 #### Pull-up resistor
 
-Each bidirectional pin has a pull-up resistor assignet. Each pull-up resistor can enabled or disabled indpendently.
+Each bidirectional pin has a pull-up resistor assigned. Each pull-up resistor can enabled or disabled independently.
 
 | *Parameter*       | *Min Value* | *Max Value*         | *Unit*  |
 | ---------         | -------:    | ----:               | ----|
@@ -71,7 +71,7 @@ The SmartWave-Control is supplied via the USB connector.
 ### Connector
 
 #### Pmod™
-The SmartWave - Control support two fully populated Digilent Pmod™ header with 12 pins each called Pmod-A and PMOD-B. 
+The SmartWave - Control support two fully populated Digilent Pmod™ header with 12 pins each called Pmod-A and Pmod-B. 
 
 The distance between the two Pmod™ connectors follows the standard 12-pin female host port placement descibed in the [Digilent Pmod™ Interface Specification](https://digilent.com/reference/_media/reference/pmod/pmod-interface-specification-1_3_1.pdf).
 
