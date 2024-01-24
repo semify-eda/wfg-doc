@@ -1,0 +1,4 @@
+[submodule "wfg-API"]
+	path = wfg-API
+	url = https://github.com/semify-eda/wfg-API.git
+	branch = devel-adam
