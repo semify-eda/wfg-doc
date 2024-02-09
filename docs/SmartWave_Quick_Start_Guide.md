@@ -11,7 +11,7 @@ With its versatile software, it effortlessly meets diverse testing requirements.
 
 
 <p align="center">
-  <img width="600" src="https://github.com/semify-eda/wfg-doc/blob/bfaffd57deebeb53ac37a169e4db89cca2de2d28/docs/SmartWave_Quick_Start_Guide_pics/Smartwave_Wallpaper_01.jpg" alt="SmartWave">
+  <img width="600" src="Smartwave_Wallpaper_01.jpg" alt="SmartWave">
 </p>
 
 
