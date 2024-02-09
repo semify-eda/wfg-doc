@@ -28,7 +28,7 @@ SmartWave does not require any driver or software installation, everything can b
 Afterwards, we can check if there are any firmware or FPGA updates available for SmartWave.
 
 <p align="center">
-  <img width="500" src="https://github.com/semify-eda/wfg-doc/blob/bfaffd57deebeb53ac37a169e4db89cca2de2d28/docs/SmartWave_Quick_Start_Guide_pics/WebGUI_driver_update.png" alt="SmartWave_driver_update">
+  <img width="500" src="SmartWave_Quick_Start_Guide_pics/WebGUI_driver_update.png" alt="SmartWave_driver_update">
 </p>
 
 
@@ -55,21 +55,21 @@ data is shifted out serially onto the MOSI bus while being sampled or read in fr
 Setting up SmartWave for SPI interface is a simple process with our WebGUI. By clicking on the “+” sign under the Drivers section, we can add an SPI driver for our setup. 
 
 <p align="center">
-  <img width="500" src="https://github.com/semify-eda/wfg-doc/blob/bfaffd57deebeb53ac37a169e4db89cca2de2d28/docs/SmartWave_Quick_Start_Guide_pics/WebGUI_drivers.png" alt="SmartWave_select_driver">
+  <img width="500" src="SmartWave_Quick_Start_Guide_pics/WebGUI_drivers.png" alt="SmartWave_select_driver">
 </p>
 
 
 The SPI driver encompasses all the settings aforementioned, offering users significant flexibility to select the number of bits for transmission and their direction, whether sending the MSB or LSB first. Users can also configure the CS polarity as active-high or active-low, and adjust the clock polarity, phase, and frequency.
 
 <p align="center">
-  <img width="500" src="https://github.com/semify-eda/wfg-doc/blob/bfaffd57deebeb53ac37a169e4db89cca2de2d28/docs/SmartWave_Quick_Start_Guide_pics/WebGUI_SPI_driver1.png" alt="SmartWave_SPI_driver">
+  <img width="500" src="SmartWave_Quick_Start_Guide_pics/WebGUI_SPI_driver1.png" alt="SmartWave_SPI_driver">
 </p>
 
 ### Pin Selection
 Users can easily select the SPI pins from SmartWave's 16 flexible GPIOs, either through the drop-down menu in the Pins section or by using the Pin layout. In the case of configuring the SPI interface in a 3-wire mode, the MISO line is left unconnected.
 
 <p align="center">
-  <img width="500" src="https://github.com/semify-eda/wfg-doc/blob/bfaffd57deebeb53ac37a169e4db89cca2de2d28/docs/SmartWave_Quick_Start_Guide_pics/WebGUI_pins.png" alt="SmartWave_pins">
+  <img width="500" src="SmartWave_Quick_Start_Guide_pics/WebGUI_pins.png" alt="SmartWave_pins">
 </p>
 
 ### Timing Diagrams
@@ -93,19 +93,19 @@ After configuring the SPI driver and selecting the desired pins, the next step i
 However, typing in data manually poses a risk of errors, especially with large datasets. To address this concern, we've introduced the option of utilising user defined variables. These custom variables, stored in a JSON file, can be imported into the WebGUI. Once loaded, users can simply use the variable names in the Write Data section.
 
  <p align="center">
-  <img width="500" src="https://github.com/semify-eda/wfg-doc/blob/bfaffd57deebeb53ac37a169e4db89cca2de2d28/docs/SmartWave_Quick_Start_Guide_pics/WebGUI_variables.png" alt="SmartWave_variables">
+  <img width="500" src="SmartWave_Quick_Start_Guide_pics/WebGUI_variables.png" alt="SmartWave_variables">
 </p>
 
 Moreover, users also have the option to request a readback from the subnode, although this requires a 4-wire connection using the MISO line, as well as defining the sample frequency.
 
  <p align="center">
-  <img width="500" src="https://github.com/semify-eda/wfg-doc/blob/bfaffd57deebeb53ac37a169e4db89cca2de2d28/docs/SmartWave_Quick_Start_Guide_pics/WebGUI_data.png" alt="SmartWave_data">
+  <img width="500" src="SmartWave_Quick_Start_Guide_pics/WebGUI_data.png" alt="SmartWave_data">
 </p>
 
 To simplify the process of replicating test cases, users have the convenient option to save their current setup  in a JSON file. This enables them to store the specific configurations, including SPI driver settings, selected pins, and data definitions. Later, users can load these saved configurations when needed, streamlining the test setup process and ensuring consistency across multiple testing scenarios. 
 
  <p align="center">
-  <img width="300" src="https://github.com/semify-eda/wfg-doc/blob/bfaffd57deebeb53ac37a169e4db89cca2de2d28/docs/SmartWave_Quick_Start_Guide_pics/WebGUI_conf_file.png" alt="SmartWave_data">
+  <img width="300" src="SmartWave_Quick_Start_Guide_pics/WebGUI_conf_file.png" alt="SmartWave_data">
 </p>
 
 ### Interacting with the Target Device
@@ -119,19 +119,19 @@ Once we've verified that SmartWave is correctly configured, we can proceed to co
 To initiate the SPI interface, users have the option to run it from the WebGUI, either in single or continuous mode. Alternatively, they can utilise the trigger button on the SmartWave. In this example, we transmit eleven 16-bit long data frames to display "HELLO" on a seven-segment display. For those who are interested in replicating this demo, can download the “[SPI_7segment.json](https://github.com/semify-eda/SmartWave_demos/blob/1e7651f6efb90a0283b20c9a54a783fc10c3edab/configuration_files/SPI%207segment.json)” configuration file from our GitHub repository.
 
 <p align="center">
-  <img width="300" src="https://github.com/semify-eda/wfg-doc/blob/bfaffd57deebeb53ac37a169e4db89cca2de2d28/docs/SmartWave_Quick_Start_Guide_pics/WebGUI_run_mode.png" alt="SmartWave_run_mode">
+  <img width="300" src="SmartWave_Quick_Start_Guide_pics/WebGUI_run_mode.png" alt="SmartWave_run_mode">
 </p>
 
 The WebGUI also offers a Transaction Log, detailing the driver used, whether data was written or read from the target device, and the data itself. This feature provides immediate feedback to users, ensuring the selected protocol operates correctly. For more comprehensive test runs, users have the option to export the transaction log as a CSV file for additional analysis.
 
 <p align="center">
-  <img width="500" src="https://github.com/semify-eda/wfg-doc/blob/bfaffd57deebeb53ac37a169e4db89cca2de2d28/docs/SmartWave_Quick_Start_Guide_pics/WebGUI_trans_log.png" alt="SmartWave_transaction_log">
+  <img width="500" src="SmartWave_Quick_Start_Guide_pics/WebGUI_trans_log.png" alt="SmartWave_transaction_log">
 </p>
 
 The image below illustrates the entire configuration in the WebGUI, enabling interaction with the 7-segment display using SmartWave through the SPI interface.
 
 <p align="center">
-  <img width="500" src="https://github.com/semify-eda/wfg-doc/blob/bfaffd57deebeb53ac37a169e4db89cca2de2d28/docs/SmartWave_Quick_Start_Guide_pics/WebGUI_SPI_complete.png" alt="SmartWave_run_mode">
+  <img width="500" src="SmartWave_Quick_Start_Guide_pics/WebGUI_SPI_complete.png" alt="SmartWave_run_mode">
 </p>
 
 ## Conclusion
