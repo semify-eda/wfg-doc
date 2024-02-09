@@ -112,7 +112,7 @@ To simplify the process of replicating test cases, users have the convenient opt
 Once we've verified that SmartWave is correctly configured, we can proceed to connect it to the target device. In this example, we're using SPI in 3-wire mode. Therefore, we have to connect the SCLK, MOSI, and CS lines for communication, alongside VDD and GND to supply power.
 
  <p align="center">
-  <img width="500" src="https://github.com/semify-eda/SmartWave_demos/blob/1e7651f6efb90a0283b20c9a54a783fc10c3edab/media/SmartWave_7SEGMENT.jpg" alt="SmartWave_7segment">
+  <img width="500" src="SmartWave_Quick_Start_Guide_pics/SmartWave_7SEGMENT.jpg" alt="SmartWave_7segment">
 </p>
 
 
