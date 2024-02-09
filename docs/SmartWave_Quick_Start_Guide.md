@@ -21,7 +21,7 @@ To begin, connect SmartWave to the host PC using a USB Micro B type cable. For u
 SmartWave does not require any driver or software installation, everything can be handled through our user-friendly [WebGUI](https://gui.smart-wave-control.com/). First, we have to select the device we wish to connect to.
 
 <p align="center">
-  <img width="500" src="https://github.com/semify-eda/wfg-doc/blob/bfaffd57deebeb53ac37a169e4db89cca2de2d28/docs/SmartWave_Quick_Start_Guide_pics/WebGUI_dev_connect.png" alt="SmartWave_dev_connect">
+  <img width="500" src="SmartWave_Quick_Start_Guide_pics/WebGUI_dev_connect.png" alt="SmartWave_dev_connect">
 </p>
 
 
