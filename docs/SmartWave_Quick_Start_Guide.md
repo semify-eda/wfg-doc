@@ -1,4 +1,4 @@
-# SmartWave Quick Guide
+# SmartWave Quick Start Guide
 
 ## Overview
 In this article, we'll guide you through setting up [SmartWave](https://www.semify-eda.com/smartwave) for a typical application. 
