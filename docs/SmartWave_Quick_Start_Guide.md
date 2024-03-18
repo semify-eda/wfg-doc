@@ -75,6 +75,16 @@ Users can easily select the SPI pins from SmartWave's 16 flexible GPIOs, either 
 ### Timing Diagrams
 One notable feature of the WebGUI is the driver timing diagram, which provides instant feedback to users when adjusting the driver settings. 
 This visualisation aids in understanding how the data transfer is configured.
+
+<p align="center">
+  <img width="500" src="SmartWave_Quick_Start_Guide_pics/spi_timing_diagram_1.png" alt="SPI_default_timing">
+</p>
+
+
+<p align="center">
+  <img width="500" src="SmartWave_Quick_Start_Guide_pics/spi_timing_diagram_2.png" alt="SPI_modified_timing">
+</p>
+
 For the SPI Driver, we have the following four modes available:
 
 
@@ -84,7 +94,6 @@ For the SPI Driver, we have the following four modes available:
 |     1       |    0   |   1    |       rising SCLK      |       failing SCLK     |
 |     2       |    1   |   0    |       rising SCLK      |       failing SCLK     |
 |     3       |    1   |   1    |       failing SCLK     |       rising SCLK      |
-
 
 
 ### Write Data
